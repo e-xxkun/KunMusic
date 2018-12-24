@@ -50,7 +50,7 @@ public class LyricFragment extends Fragment
 		layout=inflater.inflate(R.layout.lyric,container,false);
 		lrcview=(LyricView)layout.findViewById(R.id.lyric_lyric);
 		lyricmanager.setLyricView(lrcview);
-//		lyricmanager.setLyric("被遗忘的时光");		//歌词
+		lyricmanager.setLyric("被遗忘的时光");		//歌词
 		lyricmanager.synchrony(handler);
 		if(StaticDate.isPlaying)lyricmanager.resume();
 		return layout;
