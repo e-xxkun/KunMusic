@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_height="100dp"
+	android:layout_width="match_parent"
+	android:background="#9B9B9B"
+	android:descendantFocusability="blocksDescendants"
+	android:id="@+id/notification">
+
+	<ImageView
+		android:layout_width="90dp"
+		android:layout_height="90dp"
+		android:background="#BFBCD4"
+		android:id="@+id/notification_image"
+		android:padding="1dp"
+		android:layout_margin="5dp"/>
+
+	<TextView
+		android:layout_height="25dp"
+		android:layout_width="wrap_content"
+		android:layout_marginLeft="100dp"
+		android:layout_marginTop="8dp"
+		android:id="@+id/notification_tittle"
+		android:textSize="18sp"
+		android:textColor="#E7E7E7"/>
+
+	<TextView
+		android:layout_height="19dp"
+		android:layout_width="wrap_content"
+		android:layout_marginLeft="100dp"
+		android:layout_marginTop="34dp"
+		android:id="@+id/notification_artist"
+		android:textColor="#D5D5D5"/>
+
+	<LinearLayout
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:orientation="horizontal"
+		android:layout_alignParentRight="true"
+		android:layout_alignParentBottom="true"
+		android:layout_marginRight="14dp">
+
+		<Button
+			android:layout_height="44dp"
+			android:text="F"
+			android:layout_width="52dp"
+			android:id="@+id/notification_front"
+			android:background="#D8AEAB"/>
+
+		<Button
+			android:layout_height="44dp"
+			android:text="S"
+			android:layout_width="50dp"
+			android:layout_alignParentRight="true"
+			android:id="@+id/notification_start"
+			android:layout_alignParentBottom="true"
+			android:background="#A5D6A2"/>
+
+		<Button
+			android:layout_height="44dp"
+			android:text="N"
+			android:layout_width="52dp"
+			android:layout_alignParentRight="true"
+			android:id="@+id/notification_next"
+			android:layout_alignParentBottom="true"
+			android:background="#DDDFA3"/>
+
+		<Button
+			android:layout_height="44dp"
+			android:text="C"
+			android:layout_width="52dp"
+			android:id="@+id/notification_geci"
+			android:background="#DDB4E1"/>
+
+	</LinearLayout>
+
+	<Button
+		android:layout_height="44dp"
+		android:layout_width="44dp"
+		android:layout_alignParentRight="true"
+		android:id="@+id/notification_close"
+		android:background="#B8D9E2"/>
+
+</RelativeLayout>
+

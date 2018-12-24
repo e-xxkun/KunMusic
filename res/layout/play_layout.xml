@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_height="59dp"
+	android:layout_width="match_parent"
+	android:background="#D2D2D2"
+	android:descendantFocusability="blocksDescendants"
+	android:id="@+id/playlayout">
+
+	<ImageView
+		android:layout_width="48dp"
+		android:layout_height="match_parent"
+		android:layout_marginTop="8dp"
+		android:background="#C0C0ED"
+		android:layout_marginBottom="4dp"
+		android:layout_marginLeft="5dp"
+		android:id="@+id/playlayout_image"
+		android:padding="1dp"/>
+
+	<TextView
+		android:layout_height="25dp"
+		android:text="Text"
+		android:layout_width="124dp"
+		android:layout_marginLeft="60dp"
+		android:layout_marginTop="8dp"
+		android:id="@+id/playlayout_tittle"
+		android:textSize="18sp"/>
+
+	<TextView
+		android:layout_height="19dp"
+		android:text="Text"
+		android:layout_width="120dp"
+		android:layout_marginLeft="60dp"
+		android:layout_marginTop="34dp"
+		android:id="@+id/playlayout_artist"
+		android:textColor="#696969"/>
+
+	<SeekBar
+		android:layout_height="5dp"
+		android:layout_width="match_parent"
+		android:id="@+id/playlayout_seekbar"/>
+
+	<LinearLayout
+		android:layout_height="wrap_content"
+		android:layout_width="160dp"
+		android:layout_alignParentRight="true"
+		android:layout_marginRight="6dp"
+		android:layout_marginBottom="3dp"
+		android:layout_marginTop="7dp"
+		android:orientation="horizontal">
+
+		<Button
+			android:layout_height="match_parent"
+			android:text="L"
+			android:layout_width="wrap_content"
+			android:id="@+id/playlayout_playlist"
+			android:background="#D8AEAB"
+			android:layout_weight="1.0"/>
+
+		<Button
+			android:layout_height="match_parent"
+			android:text="S"
+			android:layout_width="wrap_content"
+			android:id="@+id/playlayout_start"
+			android:background="#A5D6A2"
+			android:layout_weight="1"/>
+
+		<Button
+			android:layout_height="match_parent"
+			android:text="N"
+			android:layout_width="wrap_content"
+			android:layout_alignParentRight="true"
+			android:id="@+id/playlayout_next"
+			android:background="#DDDFA3"
+			android:layout_weight="1.0"/>
+
+	</LinearLayout>
+
+</RelativeLayout>
+

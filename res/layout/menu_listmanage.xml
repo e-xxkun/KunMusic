@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content"
+	android:orientation="vertical"
+	android:background="#E1E1E1">
+
+	<TextView
+		android:layout_height="38dp"
+		android:layout_width="match_parent"
+		android:gravity="center_vertical"
+		android:paddingLeft="8dp"
+		android:text="创建的歌单"/>
+
+	<View
+		android:layout_height="2dp"
+		android:layout_width="match_parent"
+		android:background="#FFFFFF"/>
+
+	<Button
+		android:layout_height="40dp"
+		android:layout_width="match_parent"
+		android:gravity="center_vertical"
+		android:paddingLeft="8dp"
+		android:layout_marginTop="2dp"
+		android:text="新建歌单"
+		android:id="@+id/menu_listmanage_new"
+		android:background="#FFFFFF"/>
+
+	<Button
+		android:layout_height="40dp"
+		android:layout_width="match_parent"
+		android:gravity="center_vertical"
+		android:paddingLeft="8dp"
+		android:background="#FFFFFF"
+		android:layout_marginTop="2dp"
+		android:id="@+id/menu_listmanage_manage"
+		android:text="歌单管理"
+		android:layout_marginBottom="6dp"/>
+
+</LinearLayout>
+

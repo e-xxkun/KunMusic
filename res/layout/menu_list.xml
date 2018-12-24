@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content"
+	android:orientation="vertical"
+	android:background="#E1E1E1">
+
+	<TextView
+		android:layout_height="38dp"
+		android:layout_width="match_parent"
+		android:gravity="center_vertical"
+		android:paddingLeft="8dp"
+		android:id="@+id/memu_list_tittle"/>
+
+	<View
+		android:layout_height="2dp"
+		android:layout_width="match_parent"
+		android:background="#FFFFFF"/>
+
+	<TextView
+		android:layout_height="40dp"
+		android:layout_width="match_parent"
+		android:gravity="center_vertical"
+		android:paddingLeft="8dp"
+		android:background="#FFFFFF"
+		android:layout_marginTop="2dp"
+		android:text="全部播放"
+		android:id="@+id/memu_list_allplaying"/>
+
+	<TextView
+		android:layout_height="40dp"
+		android:layout_width="match_parent"
+		android:gravity="center_vertical"
+		android:paddingLeft="8dp"
+		android:background="#FFFFFF"
+		android:layout_marginTop="2dp"
+		android:id="@+id/memu_list_newname"
+		android:text="重命名"/>
+
+	<TextView
+		android:layout_height="40dp"
+		android:layout_width="match_parent"
+		android:gravity="center_vertical"
+		android:paddingLeft="8dp"
+		android:background="#FFFFFF"
+		android:layout_marginTop="2dp"
+		android:id="@+id/memu_list_del"
+		android:text="删除歌单"
+		android:layout_marginBottom="6dp"/>
+
+</LinearLayout>
+

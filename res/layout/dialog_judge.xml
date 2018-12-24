@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="300dp"
+	android:layout_height="wrap_content"
+	android:orientation="vertical"
+	android:background="@drawable/dialog">
+
+	<TextView
+		android:layout_height="56dp"
+		android:layout_width="match_parent"
+		android:paddingLeft="20dp"
+		android:textSize="16sp"
+		android:text="确定删除此歌单？"
+		android:paddingTop="20dp"/>
+
+	<TextView
+		android:layout_height="64dp"
+		android:layout_width="match_parent"
+		android:id="@+id/judge_tittle"
+		android:gravity="center_vertical"
+		android:paddingLeft="60dp"
+		android:textSize="16sp"
+		android:textColor="#707070"/>
+
+	<LinearLayout
+		android:layout_height="54dp"
+		android:layout_width="match_parent"
+		android:orientation="horizontal"
+		android:gravity="right">
+
+		<Button
+			android:text="取消"
+			android:layout_width="wrap_content"
+			android:layout_height="match_parent"
+			android:id="@+id/judge_negativebutton"
+			android:textSize="16sp"
+			android:background="#FFFFFF"
+			android:textColor="#DD3535"/>
+
+		<Button
+			android:layout_height="match_parent"
+			android:text="确认"
+			android:layout_width="wrap_content"
+			android:background="#FFFFFF"
+			android:id="@+id/judge_positivebutton"
+			android:layout_marginRight="10dp"
+			android:textSize="16sp"
+			android:textColor="#DD3535"/>
+
+	</LinearLayout>
+
+</LinearLayout>
+

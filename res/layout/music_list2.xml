@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="60dp"
+	android:descendantFocusability="blocksDescendants">
+
+	<RelativeLayout
+		android:layout_height="match_parent"
+		android:layout_width="wrap_content"
+		android:layout_weight="1">
+
+		<ImageView
+			android:layout_width="50dp"
+			android:layout_height="match_parent"
+			android:id="@+id/list2_image"
+			android:layout_margin="5dp"
+			android:background="#E6BE98"
+			android:padding="1dp"/>
+
+		<TextView
+			android:layout_width="140dp"
+			android:layout_height="wrap_content"
+			android:id="@+id/list2_amount"
+			android:textColor="#6C6B6B"
+			android:layout_marginLeft="64dp"
+			android:layout_marginTop="33dp"/>
+
+		<TextView
+			android:layout_width="180dp"
+			android:layout_height="wrap_content"
+			android:id="@+id/list2_name"
+			android:textSize="18sp"
+			android:textColor="#4B4949"
+			android:layout_marginTop="7dp"
+			android:layout_marginLeft="64dp"/>
+
+	</RelativeLayout>
+
+	<Button
+		android:layout_height="match_parent"
+		android:layout_width="40dp"
+		android:layout_alignParentRight="true"
+		android:id="@+id/list2_memu"
+		android:background="#B8D8A0"
+		android:layout_margin="4dp"/>
+
+</LinearLayout>
+

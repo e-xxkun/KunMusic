@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:ap="http://schemas.android.com/apk/res-auto"
+	android:layout_height="match_parent"
+	android:layout_width="match_parent"
+	android:orientation="vertical"
+	android:background="#9A9A9A">
+
+	<RelativeLayout
+		android:layout_height="74dp"
+		android:layout_width="match_parent">
+
+		<Button
+			android:layout_height="40dp"
+			android:layout_width="70dp"
+			android:background="#CEC4A1"
+			android:layout_margin="6dp"/>
+
+		<Button
+			android:layout_height="40dp"
+			android:layout_width="70dp"
+			android:layout_alignParentRight="true"
+			android:background="#AAC8DA"
+			android:layout_margin="6dp"/>
+
+		<TextView
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:layout_centerHorizontal="true"
+			android:layout_marginTop="20dp"
+			android:textSize="20sp"
+			android:id="@+id/playing_tittle"/>
+
+		<TextView
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:layout_centerHorizontal="true"
+			android:layout_marginTop="54dp"
+			android:id="@+id/playing_artist"/>
+
+	</RelativeLayout>
+
+	<LinearLayout
+		android:layout_height="wrap_content"
+		android:layout_width="match_parent"
+		android:orientation="vertical"
+		android:layout_weight="1.0">
+
+		<android.support.v4.view.ViewPager
+			android:id="@+id/pager2"
+			android:layout_width="match_parent"
+			android:layout_weight="1"
+			android:layout_height="wrap_content"/>
+
+		<com.KUNorz.music.Pager.CirclePageIndicator
+			android:id="@+id/indicator2"
+			android:layout_height="wrap_content"
+			android:layout_width="match_parent"
+			android:paddingTop="2dp"/>
+
+	</LinearLayout>
+
+	<RelativeLayout
+		android:layout_height="140dp"
+		android:layout_width="match_parent">
+
+		<Button
+			android:layout_height="60dp"
+			android:text="N"
+			android:layout_width="60dp"
+			android:layout_alignParentRight="true"
+			android:layout_marginRight="82dp"
+			android:layout_marginBottom="20dp"
+			android:layout_alignParentBottom="true"
+			android:id="@+id/playing_next"
+			android:background="#DDDFA3"/>
+
+		<Button
+			android:layout_height="60dp"
+			android:text="F"
+			android:layout_width="60dp"
+			android:layout_marginLeft="82dp"
+			android:layout_alignParentBottom="true"
+			android:layout_marginBottom="20dp"
+			android:id="@+id/playing_front"
+			android:background="#D8AEAB"/>
+
+		<Button
+			android:layout_height="60dp"
+			android:text="L"
+			android:layout_width="60dp"
+			android:layout_alignParentRight="true"
+			android:layout_alignParentBottom="true"
+			android:layout_marginBottom="20dp"
+			android:layout_marginRight="15dp"
+			android:background="#DABDE3"/>
+
+		<Button
+			android:layout_height="60dp"
+			android:text="S"
+			android:layout_width="60dp"
+			android:layout_alignParentBottom="true"
+			android:layout_marginBottom="20dp"
+			android:layout_marginLeft="15dp"
+			android:background="#B8BEE9"/>
+
+		<Button
+			android:layout_height="60dp"
+			android:text="P"
+			android:layout_width="60dp"
+			android:layout_centerHorizontal="true"
+			android:layout_alignParentBottom="true"
+			android:layout_marginBottom="20dp"
+			android:id="@+id/playing_start"
+			android:background="#A5D6A2"/>
+
+		<SeekBar
+			android:layout_height="wrap_content"
+			android:layout_width="match_parent"
+			android:layout_marginBottom="100dp"
+			android:layout_alignParentBottom="true"
+			android:id="@+id/playing_seekbar"
+			android:layout_marginRight="25dp"
+			android:layout_marginLeft="28dp"/>
+
+		<TextView
+			android:layout_height="wrap_content"
+			android:text="Text"
+			android:layout_width="wrap_content"
+			android:layout_alignParentRight="true"
+			android:layout_marginBottom="106dp"
+			android:layout_alignParentBottom="true"
+			android:layout_marginRight="6dp"
+			android:id="@+id/playing_time"/>
+
+		<TextView
+			android:layout_height="wrap_content"
+			android:text="Text"
+			android:layout_width="wrap_content"
+			android:layout_marginBottom="106dp"
+			android:layout_marginLeft="6dp"
+			android:layout_alignParentBottom="true"
+			android:id="@+id/playing_ctime"/>
+
+	</RelativeLayout>
+
+</LinearLayout>
+

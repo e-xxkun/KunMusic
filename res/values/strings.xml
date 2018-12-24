@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Music</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+	<item type="id" name="tag_first"></item>
+	<item type="id" name="tag_second"></item>
+	<item type="id" name="tag_thrid"></item>
+	<item type="id" name="tag_forth"></item>
+	<item type="id" name="tag_fifth"></item>
+	<item type="id" name="selected_view"></item>
+	
+</resources>
